@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+ background-color: black;
+ background-image: url(./Assets/Images/colorDot_bg.png);
+ background-size:contain;
+ background-repeat: repeat;
+ overflow-x: hidden;
+}
+
+p{
+  font-family: "Comic Neue", cursive;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Irish Grover", system-ui;
+  font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00549e;
+}
