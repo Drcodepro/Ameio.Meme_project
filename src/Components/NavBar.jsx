@@ -53,8 +53,8 @@ export default function NavBar(){
         {/* </div> */}
 
         <div className="buy_button"> 
-        {/* <NavLink to="BuyTokens" onClick={handleshowPopUp}> <button>Buy Now</button></NavLink> */}
-        <button onClick={handleshowPopUp} >Buy Now</button>
+        <NavLink to="BuyTokens"> <button>Buy Now</button></NavLink>
+        {/* <button onClick={handleshowPopUp} >Buy Now</button> */}
         </div>
 
         <div className= "toggle_nav_button" onClick={handleIsVisible}>
