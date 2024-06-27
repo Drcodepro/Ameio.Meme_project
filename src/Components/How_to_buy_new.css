@@ -84,6 +84,7 @@ p{
     .buy_step_container{
     justify-content: space-between;
     flex-direction: column;
+        padding: 2rem ;   
 }
 
 .buy_step_container .step_image{
