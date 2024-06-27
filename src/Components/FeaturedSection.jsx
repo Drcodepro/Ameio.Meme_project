@@ -7,6 +7,18 @@ import feature_img5 from "../Assets/Icons/feartured_img5.png";
 import feature_img6 from "../Assets/Icons/feartured_img6.png";
 import meme_img from "../Assets/Images/Meme_img.png";
 import meme_fox from "../Assets/Images/Meme_fox.webp";
+
+
+import facebook_icon from '../Assets/Icons/socialMedia_icon/facebook_icon_0.png';
+import insta_icon from '../Assets/Icons/socialMedia_icon/insta_icon_0.png';
+import twitter_icon from '../Assets/Icons/socialMedia_icon/twitter_icon_0.png';
+// import linkedin_icon from '../Assets/Icons/socialMedia_icon/linkedin_icon.png';
+import youtube_icon from '../Assets/Icons/socialMedia_icon/youtube_icon_0.png';
+import mail_icon from '../Assets/Icons/socialMedia_icon/mail_icon_0.png';
+import telegram_icon from '../Assets/Icons/socialMedia_icon/telegram_icon_0.png';
+
+
+
 import fox_img from "../Assets/Images/Baby_fox.webp";
 
 export default function FeaturedSection(){
@@ -41,6 +53,16 @@ export default function FeaturedSection(){
                 <div className="featured_info_container">
                     <div className="featured_info">
                         <p>AMEIO MEME is a groundbreaking project that brings together the worlds of gaming, NFT memes, and the metaverse to create a vibrant, dynamic ecosystem.</p>
+                        <div className="social_media_icons">
+            <a href="mailto:ameiomeme@gmail.com"><img src={mail_icon} alt="" /></a>
+            <a href="https://x.com/ameio_meme"><img src={twitter_icon} alt="" /></a>
+            <a href="https://t.me/ameio_memecommunity"><img src={telegram_icon} alt="" /></a>
+            <a href="https://www.facebook.com/ameiomeme/"><img src={facebook_icon} alt="" /></a> 
+            <a href="https://www.instagram.com/ameio_meme/"><img src={insta_icon} alt="" /></a> 
+            <a href="https://www.youtube.com/@Ameio_Meme"><img src={youtube_icon} alt="" /></a>
+            
+            {/* <a href=""><img src={linkedin_icon} alt="" /></a>  */}
+          </div>
                     </div>
                     <div className="featured_img">
                         <img src={fox_img} alt="" />

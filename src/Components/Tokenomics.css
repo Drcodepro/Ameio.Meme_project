@@ -7,7 +7,7 @@
     color: white;
     padding: 1rem;
     margin-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .Tokenomic_body{
@@ -25,7 +25,7 @@
 }
 
 .Tokenomic_section_container .graph_container img{
-    width: 80%;
+    width: 70%;
 }
 
 .Tokenomic_section_container .tokenomic_info_container{
