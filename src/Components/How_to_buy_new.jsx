@@ -51,6 +51,7 @@ export default function HowBuy(){
                 
                 <div className="step_info_container">
                     <p className="step_name">Buy AMEO:</p>
+                    <p className="step_info">Buy AMEO token.</p>
                 </div>
             </div>
             </div>
