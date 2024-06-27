@@ -8,7 +8,7 @@ import AdventureCard from "./Other_component/Adventure_card/AdventureCard";
 
 export default function Adventures() {
   return (
-    <div className="adventure_section_container">
+    <div className="adventure_section_container" id="Features_Section">
       <div className="background_img_container"></div>
 
       <h1>Key Features</h1>

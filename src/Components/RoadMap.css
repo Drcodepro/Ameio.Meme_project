@@ -4,34 +4,66 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
     color: white;
     gap: 1rem;
 }
 
 
+.outer_roadmap_container{
+    width: 100%;
+    height:fit-content;
+    padding-bottom: 3rem;
+    display: grid;
+    justify-items:center;
+    overflow-x:scroll;  
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+      scrollbar-width: none; 
+    
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
 .roadmap_section_container .roadmap_points_container{
+    width: fit-content;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
+    justify-content:center;
+    gap:6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 6rem;
+    position: relative;
+
+    &::before{
+        content: "";
+        position:absolute;
+        width:80%;
+        top:27%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-top: dashed white 2px;
+    }
 }
 
 
 
 .roadmap_points_container .roadmap_point{
     display: flex;
+    flex-direction: column;
+    justify-content:start;
     align-items: center;
-    gap:4rem;
+    gap:2rem;
+    width:fit-content;
 }
 
 .roadmap_point .roadmap_info{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 0.5rem;
+    width: 100%;
 }
 
 .roadmap_point .roadmap_info .point_heading{
@@ -43,6 +75,10 @@
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.roadmap_info ul{
+    width: fit-content;
 }
 
 .roadmap_info ul li{

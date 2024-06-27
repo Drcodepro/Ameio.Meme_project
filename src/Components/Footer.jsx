@@ -1,5 +1,5 @@
 import "./Footer.css";
-import amieo_logo from "../Assets/Icons/amieo_logo_foot.png";
+import ameio_logo from "../Assets/Icons/amieo_logo_nav.png";
 import facebook_icon from '../Assets/Icons/socialMedia_icon/facebook_icon.png';
 import insta_icon from '../Assets/Icons/socialMedia_icon/insta_icon.png';
 import twitter_icon from '../Assets/Icons/socialMedia_icon/twitter_icon.png';
@@ -10,23 +10,23 @@ import telegram_icon from '../Assets/Icons/socialMedia_icon/telegram_icon.png';
 
 export default function Footer() {
   return (
-    <div className="Home_footer_section">
+    <div className="Home_footer_section" id="Footer_Section">
       <div className="footer_mainContent">
 
         <div className="Home_footer_info">
           <div className="Home_Footer_logo_container">
-            <img src={amieo_logo} alt="logo" className="footer_logo" />
+            <img src={ameio_logo} alt="logo" className="footer_logo" />
           </div>
-          <div className="footer_info">Get involved early by participating in our presale and become a part of the AMEIO.Meme community. Whether you&apos;re a meme creator, a gamer, or just a meme enthusiast, there&apos;s a place for you in our ecosystem. </div>
+          <div className="footer_info">Get involved early by participating in our presale and become a part of the Ameio.Meme community.</div>
         </div>
 
-        <div className="About_us">
+        {/* <div className="About_us">
           <h2>About Us</h2>
           <p>Amieo</p>
           <p>Careers</p>
           <p>Contact us</p>
         </div>
-        
+         */}
         <div className="contact_us">
           <h2>Contact Us</h2>
           <div className="social_media_icons">
@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className="footer_rights">
         <div className="rights">
-          <p>@2024. All rights reserved </p>
+          <p>@2024 by Ameio.Meme All rights reserved </p>
         </div>
       </div>
     </div>

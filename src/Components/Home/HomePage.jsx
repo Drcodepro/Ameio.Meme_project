@@ -7,14 +7,15 @@ import Gallery from "../Nft_gallery";
 import Metaverse from "../Metaverse";
 import Tokenomics from "../Tokenomics";
 import RoadMap from "../RoadMap";
+import Footer from "../Footer";
 export default function HomePage(){
     return(
         <div className="HomePage_container">
             <LandingPage/>
             <FeaturedSection/>
             <Adventures/>
-            <Gallery/>  
-            <Metaverse/>
+            {/* <Gallery/>   */}
+            {/* <Metaverse/> */}
             <Tokenomics/>
             <RoadMap/>
         </div>

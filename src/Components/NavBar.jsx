@@ -32,29 +32,28 @@ export default function NavBar(){
             <div  className={`${isvisible  ?  "none" :"navIsHidden "} nav_navigation_container flex items-center w-fit  gap-12 text-sm`}>
                 <NavLink to="" 
                 className={({isActive}) =>
-                    ` ${isActive ? "text-amber-600 text-[0.8rem] ":"null"}`}
+                    ` ${isActive ? "text-white-600  ":"null"}`}
                 ><div className="nav_navigation">HOME</div></NavLink>
 
-                <div className="nav_navigation"  onClick={handleIsVisible} >STUDIO</div>
-
-                <div className="nav_navigation"  onClick={handleIsVisible} >SERVICES</div>
+                <a href="#Features_Section"><div className="nav_navigation">FEATURES</div></a>
 
                 {/* <NavLink to="BuyTokens"
                 className={({isActive}) =>
                     ` ${isActive ? "text-amber-600 text-sm":"null"}`}
                 > <div className="nav_navigation flex">BUY TOKENS</div></NavLink> */}
 
-                <div className="nav_navigation flex" onClick={handleBuyNowClick}>BUY TOKENS</div>
+                <a href="#Tokenomics_Section"><div className="nav_navigation flex">TOKENOMICS</div></a>
                 
-                <div className="nav_navigation"  onClick={handleIsVisible} >CONTACT</div>
+                <a href="#RoadMap_Section"><div className="nav_navigation" >ROADMAP</div></a>
+
+                {/* <a href="#Footer_Section"><div className="nav_navigation"  >CONTACT</div></a> */}
                 
-                <div className="nav_navigation"  onClick={handleIsVisible} >FAQs</div>
             </div>
         {/* </div> */}
 
         <div className="buy_button"> 
-        <NavLink to="BuyTokens"> <button>Buy Now</button></NavLink>
-        {/* <button onClick={handleshowPopUp} >Buy Now</button> */}
+        {/* <NavLink to="BuyTokens"> <button>Buy Now</button></NavLink> */}
+        <button onClick={handleshowPopUp} >Buy Now</button>
         </div>
 
         <div className= "toggle_nav_button" onClick={handleIsVisible}>
