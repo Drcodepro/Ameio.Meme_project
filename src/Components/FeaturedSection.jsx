@@ -14,7 +14,8 @@ export default function FeaturedSection(){
     return(
         <div className="Featured_Section_container">
             <div className="main_container">
-                <div className="featured_Head">
+                <h1>About Amieo</h1>
+                {/* <div className="featured_Head">
                     <h1>Featured In</h1>
                     
                     <div className="featured_slider_container">
@@ -34,7 +35,7 @@ export default function FeaturedSection(){
                             <img src={feature_img6} alt="" />
                         </div>
                     </div>        
-                </div>
+                </div> */}
 
 {/* about ameio.meme */}
                 <div className="featured_info_container">
@@ -61,12 +62,13 @@ export default function FeaturedSection(){
                 </div>
 
 
+{/* combination meme section */}
 
-                <div className="meme_container">
+                {/* <div className="meme_container">
                     <h1>Combination of Various Meme </h1>
                     <img src={meme_img} alt="" className="meme_img" />
                     <img src={meme_fox} alt="" className="meme_cat_img"/>
-                </div>
+                </div> */}
             </div>
             
         </div>

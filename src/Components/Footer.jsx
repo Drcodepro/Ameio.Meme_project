@@ -1,12 +1,12 @@
 import "./Footer.css";
 import ameio_logo from "../Assets/Icons/amieo_logo_nav.png";
-import facebook_icon from '../Assets/Icons/socialMedia_icon/facebook_icon.png';
-import insta_icon from '../Assets/Icons/socialMedia_icon/insta_icon.png';
-import twitter_icon from '../Assets/Icons/socialMedia_icon/twitter_icon.png';
+import facebook_icon from '../Assets/Icons/socialMedia_icon/facebook_icon_0.png';
+import insta_icon from '../Assets/Icons/socialMedia_icon/insta_icon_0.png';
+import twitter_icon from '../Assets/Icons/socialMedia_icon/twitter_icon_0.png';
 // import linkedin_icon from '../Assets/Icons/socialMedia_icon/linkedin_icon.png';
-import youtube_icon from '../Assets/Icons/socialMedia_icon/youtube_icon.png';
-import mail_icon from '../Assets/Icons/socialMedia_icon/mail_icon.png';
-import telegram_icon from '../Assets/Icons/socialMedia_icon/telegram_icon.png';
+import youtube_icon from '../Assets/Icons/socialMedia_icon/youtube_icon_0.png';
+import mail_icon from '../Assets/Icons/socialMedia_icon/mail_icon_0.png';
+import telegram_icon from '../Assets/Icons/socialMedia_icon/telegram_icon_0.png';
 
 export default function Footer() {
   return (

@@ -17,15 +17,15 @@ export default function Adventures() {
       <div className="feature_cards_container">
         <AdventureCard
           imgPath={AdventureCard_img_1}
-          userName="Gaming Platform"
+          userName="Amieo Gaming Platform"
         />
         <AdventureCard
           imgPath={AdventureCard_img_2}
-          userName="Metaverse on Memes"
+          userName="Amieo Metaverse"
         />
         <AdventureCard
           imgPath={AdventureCard_img_3}
-          userName="NFT Marketplace"
+          userName="Amieo NFT Collection"
         />
       </div>
       </div>
