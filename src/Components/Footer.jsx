@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="Home_Footer_logo_container">
             <img src={ameio_logo} alt="logo" className="footer_logo" />
           </div>
-          <div className="footer_info">Get involved early by participating in our presale and become a part of the Ameio.Meme community.</div>
+          <div className="footer_info">AMEIO MEME does not provide investment advice. Information, including token prices and projections, is subject to change without notice. Accuracy, completeness, or timeliness is not guaranteed.</div>
         </div>
 
         {/* <div className="About_us">

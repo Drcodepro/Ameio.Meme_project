@@ -5,15 +5,22 @@ import AdventureCard_img_3 from "../Assets/Images/AdventureCard_img3.png";
 
 import AdventureCard from "./Other_component/Adventure_card/AdventureCard";
 
-import gamImg1 from "../Assets/Images/Adventure_images/g1.webp";
-import gamImg2 from "../Assets/Images/Adventure_images/g2.webp";
-import gamImg3 from "../Assets/Images/Adventure_images/g3.webp";
-import gamImg4 from "../Assets/Images/Adventure_images/g4.webp";
-import gamImg5 from "../Assets/Images/Adventure_images/g5.webp";
-import gamImg6 from "../Assets/Images/Adventure_images/g6.webp";
+import gamImg1 from "../Assets/Images/Adventure_images/game1.webp";
+import gamImg2 from "../Assets/Images/Adventure_images/game2.webp";
+import gamImg3 from "../Assets/Images/Adventure_images/game3.webp";
+import gamImg4 from "../Assets/Images/Adventure_images/game4.webp";
+import gamImg5 from "../Assets/Images/Adventure_images/game5.webp";
 
 
-const imgPathGameArr = [gamImg1,gamImg2,gamImg3,gamImg4,gamImg5,gamImg6];
+import metaImg1 from "../Assets/Images/Adventure_images/meta1.webp";
+import metaImg2 from "../Assets/Images/Adventure_images/meta2.webp";
+import metaImg3 from "../Assets/Images/Adventure_images/meta3.webp";
+import metaImg4 from "../Assets/Images/Adventure_images/meta4.webp";
+import metaImg5 from "../Assets/Images/Adventure_images/meta5.webp";
+import metaImg6 from "../Assets/Images/Adventure_images/meta6.webp";
+
+const imgPathGameArr = [gamImg1,gamImg2,gamImg3,gamImg4,gamImg5];
+const imgPathMetaArr = [metaImg1,metaImg2,metaImg3,metaImg4,metaImg5,metaImg6];
 
 export default function Adventures() {
 
@@ -31,13 +38,13 @@ export default function Adventures() {
           userName="Amieo Gaming Platform"
         />
         <AdventureCard
-          imgPath={imgPathGameArr}
+          imgPath={imgPathMetaArr}
           userName="Amieo Metaverse"
         />
-        <AdventureCard
-          imgPath={imgPathGameArr}
+        {/* <AdventureCard
+          imgPath={AdventureCard_img_3}
           userName="Amieo NFT Collection"
-        />
+        /> */}
       </div>
       </div>
     </div>

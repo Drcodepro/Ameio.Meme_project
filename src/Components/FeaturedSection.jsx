@@ -16,6 +16,7 @@ import telegram_icon from "../Assets/Icons/socialMedia_icon/telegram_icon_0.png"
 // import fox_img from "../Assets/Images/Baby_fox.webp";
 
 // crousel imports
+import about_img0 from "../Assets/Images/about_img_0.png";
 import about_img1 from "../Assets/Images/about_img_1.png";
 import about_img2 from "../Assets/Images/about_img_2.png";
 import about_img3 from "../Assets/Images/about_img_3.png";
@@ -102,6 +103,9 @@ export default function FeaturedSection() {
               modules={[Autoplay]}
               className="mySwiper"
             >
+              <SwiperSlide>
+                <img src={about_img0} alt="" />
+              </SwiperSlide>
               <SwiperSlide>
                 <img src={about_img1} alt="" />
               </SwiperSlide>

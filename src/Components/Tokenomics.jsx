@@ -1,5 +1,5 @@
 import "./Tokenomics.css";
-import tokenomic_graph from "../Assets/Images/Tokenomic_graph.webp";
+import tokenomic_graph from "../Assets/Images/Tokenomic_graph.svg";
 
 export default function Tokenomics(){
     return(<div className="Tokenomic_section_container" id="Tokenomics_Section">
