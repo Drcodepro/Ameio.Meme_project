@@ -1,7 +1,7 @@
 import "./Adventures.css";
 import AdventureCard_img_1 from "../Assets/Images/AdventureCard_img1.png";
 import AdventureCard_img_2 from "../Assets/Images/AdventureCard_img2.png";
-import AdventureCard_img_3 from "../Assets/Images/AdventureCard_img3.png";
+import metaNFT1 from "../Assets/Images/AdventureCard_img3.png";
 
 import AdventureCard from "./Other_component/Adventure_card/AdventureCard";
 
@@ -21,6 +21,7 @@ import metaImg6 from "../Assets/Images/Adventure_images/meta6.webp";
 
 const imgPathGameArr = [gamImg1,gamImg2,gamImg3,gamImg4,gamImg5];
 const imgPathMetaArr = [metaImg1,metaImg2,metaImg3,metaImg4,metaImg5,metaImg6];
+const imgPathNFTArr = [metaNFT1];
 
 export default function Adventures() {
 
@@ -41,10 +42,10 @@ export default function Adventures() {
           imgPath={imgPathMetaArr}
           userName="Amieo Metaverse"
         />
-        {/* <AdventureCard
-          imgPath={AdventureCard_img_3}
+        <AdventureCard
+          imgPath={imgPathNFTArr}
           userName="Amieo NFT Collection"
-        /> */}
+        />
       </div>
       </div>
     </div>
