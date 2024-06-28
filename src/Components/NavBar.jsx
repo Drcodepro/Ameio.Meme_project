@@ -15,6 +15,7 @@ export default function NavBar(){
 
     const handleshowPopUp = () => {
         setIsPopUpOpen(true);
+        handleIsVisible()   
       };
     
       const closePopUp = () => {
@@ -35,7 +36,11 @@ export default function NavBar(){
                     ` ${isActive ? "text-white-600  ":"null"}`}
                 ><div className="nav_navigation">HOME</div></NavLink>
 
+                <hr />
+
                 <a href="#Features_Section"><div className="nav_navigation">FEATURES</div></a>
+
+                <hr />
 
                 {/* <NavLink to="BuyTokens"
                 className={({isActive}) =>
@@ -43,16 +48,18 @@ export default function NavBar(){
                 > <div className="nav_navigation flex">BUY TOKENS</div></NavLink> */}
 
                 <a href="#Tokenomics_Section"><div className="nav_navigation flex">TOKENOMICS</div></a>
-                
+              
+                <hr />
+
                 <a href="#RoadMap_Section"><div className="nav_navigation" >ROADMAP</div></a>
 
-                {/* <a href="#Footer_Section"><div className="nav_navigation"  >CONTACT</div></a> */}
+                <hr />
+                <div className="nav_navigation buy_navigation" onClick={handleshowPopUp} >Buy Now</div>
                 
             </div>
         {/* </div> */}
 
         <div className="buy_button"> 
-        {/* <NavLink to="BuyTokens"> <button>Buy Now</button></NavLink> */}
         <button onClick={handleshowPopUp} >Buy Now</button>
         </div>
 

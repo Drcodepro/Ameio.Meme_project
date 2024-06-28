@@ -14,8 +14,8 @@ export default function PopUpMsg (props){
       props.onClose()
     },300)
   };
-  return (
-   
+
+    return(
       <div className="Pop_up_container">
         <img src={piksale_img} alt="coming_soon_lcon" />
         <p>Get ready to be among the first to experience exclusive benefits and early access to our latest offerings. Stay tuned for more updates!</p>
