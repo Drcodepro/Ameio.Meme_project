@@ -90,7 +90,7 @@ export default function BuyToken() {
                   <div className="absolute top-0 left-0 h-full w-fit pl-2 text-xs flex items-center text-slate-300">
                     Remaining 16.3M
                   </div>
-                  <img
+                  <img loading="lazy"
                     src={progress_dot}
                     alt="progres circle"
                     className="absolute top-[50%] translate-y-[-50%] right-0 w-8 h-auto"
@@ -119,7 +119,7 @@ export default function BuyToken() {
                 }}
               >
                 <span className="font-bold">Buy coins</span>
-                <img
+                <img loading="lazy"
                   src={ameio_logo}
                   alt="progres circle"
                   className="w-8 h-auto"
@@ -130,7 +130,7 @@ export default function BuyToken() {
 
               <div className="relative mb-2 w-[90%] h-fit">
                 <div className="absolute inset-y-0 start-0 mx-3 flex items-center pointer-events-none">
-                  <img
+                  <img loading="lazy"
                     loading="lazy"
                     src={USDT_logo}
                     className="h-[30px] w-[30px]"
@@ -151,7 +151,7 @@ export default function BuyToken() {
 
               <div className="relative mb-2 w-[90%]">
                 <div className="absolute inset-y-0 start-0 mx-3 flex items-center pointer-events-none">
-                  <img
+                  <img loading="lazy"
                     loading="lazy"
                     src={ameio_logo}
                     className="w-8 h-auto"
@@ -181,13 +181,13 @@ export default function BuyToken() {
 
           <div className="Buy_options_container flex flex-col items-center gap-4 w-full">
             <div className=" buy_option_imges flex  flex-wrap gap-5 w-full justify-center">
-              <img src={buyOption1} alt="" className="w-8" />
-              <img src={buyOption2} alt="" className="w-8" />
-              <img src={buyOption3} alt="" className="w-8" />
-              <img src={buyOption4} alt="" className="w-8" />
-              <img src={buyOption5} alt="" className="w-8" />
-              <img src={buyOption6} alt="" className="w-8" />
-              <img src={buyOption7} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption1} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption2} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption3} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption4} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption5} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption6} alt="" className="w-8" />
+              <img loading="lazy" src={buyOption7} alt="" className="w-8" />
             </div>
 
             <div className="special_key_container flex flex-col items-center w-full gap-4">

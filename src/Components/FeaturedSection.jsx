@@ -44,19 +44,19 @@ export default function FeaturedSection() {
                     
                     <div className="featured_slider_container">
                         <div className="featured_companies">
-                            <img src={feature_img1} alt="" />
-                            <img src={feature_img2} alt="" />
-                            <img src={feature_img3} alt="" />
-                            <img src={feature_img4} alt="" />
-                            <img src={feature_img5} alt="" />
-                            <img src={feature_img6} alt="" />
+                            <img loading="lazy"  src={feature_img1} alt="" />
+                            <img loading="lazy"  src={feature_img2} alt="" />
+                            <img loading="lazy"  src={feature_img3} alt="" />
+                            <img loading="lazy"  src={feature_img4} alt="" />
+                            <img loading="lazy"  src={feature_img5} alt="" />
+                            <img loading="lazy"  src={feature_img6} alt="" />
 
-                            <img src={feature_img1} alt="" />
-                            <img src={feature_img2} alt="" />
-                            <img src={feature_img3} alt="" />
-                            <img src={feature_img4} alt="" />
-                            <img src={feature_img5} alt="" />
-                            <img src={feature_img6} alt="" />
+                            <img loading="lazy"  src={feature_img1} alt="" />
+                            <img loading="lazy"  src={feature_img2} alt="" />
+                            <img loading="lazy"  src={feature_img3} alt="" />
+                            <img loading="lazy"  src={feature_img4} alt="" />
+                            <img loading="lazy"  src={feature_img5} alt="" />
+                            <img loading="lazy"  src={feature_img6} alt="" />
                         </div>
                     </div>        
                 </div> */}
@@ -71,22 +71,22 @@ export default function FeaturedSection() {
             </p>
             <div className="social_media_icons">
               <a href="mailto:ameiomeme@gmail.com">
-                <img src={mail_icon} alt="" />
+                <img loading="lazy"  src={mail_icon} alt="" />
               </a>
               <a href="https://x.com/ameio_meme">
-                <img src={twitter_icon} alt="" />
+                <img loading="lazy"  src={twitter_icon} alt="" />
               </a>
               <a href="https://t.me/ameio_memecommunity">
-                <img src={telegram_icon} alt="" />
+                <img loading="lazy"  src={telegram_icon} alt="" />
               </a>
               <a href="https://www.facebook.com/ameiomeme/">
-                <img src={facebook_icon} alt="" />
+                <img loading="lazy"  src={facebook_icon} alt="" />
               </a>
               <a href="https://www.instagram.com/ameio_meme/">
-                <img src={insta_icon} alt="" />
+                <img loading="lazy"  src={insta_icon} alt="" />
               </a>
               <a href="https://www.youtube.com/@Ameio_Meme">
-                <img src={youtube_icon} alt="" />
+                <img loading="lazy"  src={youtube_icon} alt="" />
               </a>
             </div>
           </div>
@@ -104,19 +104,19 @@ export default function FeaturedSection() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src={about_img0} alt="" />
+                <img loading="lazy"  src={about_img0} alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={about_img1} alt="" />
+                <img loading="lazy"  src={about_img1} alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={about_img2} alt="" />
+                <img loading="lazy"  src={about_img2} alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={about_img3} alt="" />
+                <img loading="lazy"  src={about_img3} alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={about_img4} alt="" />
+                <img loading="lazy"  src={about_img4} alt="" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -161,8 +161,8 @@ export default function FeaturedSection() {
 
         {/* <div className="meme_container">
                     <h1>Combination of Various Meme </h1>
-                    <img src={meme_img} alt="" className="meme_img" />
-                    <img src={meme_fox} alt="" className="meme_cat_img"/>
+                    <img loading="lazy"  src={meme_img} alt="" className="meme_img" />
+                    <img loading="lazy"  src={meme_fox} alt="" className="meme_cat_img"/>
                 </div> */}
       </div>
     </div>

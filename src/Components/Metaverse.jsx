@@ -43,7 +43,7 @@ export default function Metaverse() {
       <div className="metaverse_body">
         <div className="other_video_contaner1">
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={other_img2}
               alt=""
               className="metaverseImg"
@@ -56,7 +56,7 @@ export default function Metaverse() {
             </div>
           </div>
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={other_img3}
               alt=""
               className="metaverseImg"
@@ -70,7 +70,7 @@ export default function Metaverse() {
           </div>
           
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={other_img4}
               alt=""
               className="metaverseImg"
@@ -86,7 +86,7 @@ export default function Metaverse() {
 
         <div className="main_video_container">
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={main_img}
               alt=""
               className="metaverseImg"
@@ -102,7 +102,7 @@ export default function Metaverse() {
 
         <div className="other_video_contaner2">
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={other_img5}
               alt=""
               className="metaverseImg"
@@ -115,7 +115,7 @@ export default function Metaverse() {
             </div>
           </div>
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={other_img6}
               alt=""
               className="metaverseImg"
@@ -128,7 +128,7 @@ export default function Metaverse() {
             </div>
           </div>
           <div className="gif_container">
-            <img
+            <img loading="lazy"
               src={other_img7}
               alt=""
               className="metaverseImg"

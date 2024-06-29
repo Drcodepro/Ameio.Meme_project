@@ -11,7 +11,7 @@ export default function Referral(){
             <div className="referral_information">Share your unique link with friends, family, and your network, to automatically receive 10% of all of their investments in Ameio.</div>
             <button>Refer Now</button>
         </div>
-        <img src={referral_img} alt="" />
+        <img loading="lazy" src={referral_img} alt="" />
 
     </div>)
 }

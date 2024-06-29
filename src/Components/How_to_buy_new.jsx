@@ -14,7 +14,7 @@ export default function HowBuy(){
 
             <div className="allStep_container">  
             <div className="buy_step_container">
-                <img className="step_image" src={create_wallet_img} alt="" />
+                <img loading="lazy" className="step_image" src={create_wallet_img} alt="" />
                 
                 <div className="step_info_container">
                     <p className="step_name">Create a Phantom / Trust Wallet:</p>
@@ -25,7 +25,7 @@ export default function HowBuy(){
 
 
             <div className="buy_step_container">
-                    <img className="step_image" src={solana_img} alt="" />
+                    <img loading="lazy" className="step_image" src={solana_img} alt="" />
                 
                 <div className="step_info_container">
                     <p className="step_name">Get Some SOL:</p>
@@ -36,7 +36,7 @@ export default function HowBuy(){
 
 
             <div className="buy_step_container">
-                    <img className="step_image" src={pinksale_img} alt="" />
+                    <img loading="lazy" className="step_image" src={pinksale_img} alt="" />
                 
                 <div className="step_info_container">
                     <p className="step_name">Go to Pinksale Page:</p>
@@ -47,7 +47,7 @@ export default function HowBuy(){
 
 
             <div className="buy_step_container">
-                    <img className="step_image" src={Buy_logo} alt="" />
+                    <img loading="lazy" className="step_image" src={Buy_logo} alt="" />
                 
                 <div className="step_info_container">
                     <p className="step_name">Buy AMEO:</p>

@@ -40,7 +40,7 @@ export default function AdventureCard(props){
             {props.imgPath.map((path, index) => {
                 return (
                     <SwiperSlide key={index}>
-                        <img src={path} alt="" />
+                        <img loading="lazy" src={path} alt="" />
                     </SwiperSlide>
                 );
             })}; 

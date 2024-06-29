@@ -6,16 +6,16 @@ export default function GllaryCard(props){
 
             <div className="card_main_body">
                 <div className="mainImg_container">
-                    <img src={props.main_img} alt="" />
+                    <img loading="lazy"  src={props.main_img} alt="" />
                 </div>
 
                 <div className="gallery_info_container">
                     <div>
-                        <img src={props.another_img1} alt="" />
+                        <img loading="lazy"  src={props.another_img1} alt="" />
                     </div>
 
                     <div>
-                        <img src={props.another_img2} alt="" />
+                        <img loading="lazy"  src={props.another_img2} alt="" />
                     </div>
 
                     <div className="gallery_size_no">
@@ -26,7 +26,7 @@ export default function GllaryCard(props){
 
             <div className="gallery_card_footer">
                 <p className="gallery_name">{props.Gallary_name}</p>
-                <div > <img src={props.profile_pic} alt="" /> <p> {props.Gallery_creater}</p></div>
+                <div > <img loading="lazy"  src={props.profile_pic} alt="" /> <p> {props.Gallery_creater}</p></div>
             </div>
         </div>
     )

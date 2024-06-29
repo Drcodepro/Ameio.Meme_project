@@ -3,7 +3,7 @@ import animal_landing from "../Assets/Images/animal_landing_img.webp";
 export default function LandingPage(){
     return(
         <div className="LandingPage_container">
-            <img src={animal_landing} alt="" />
+            <img loading="lazy" src={animal_landing} alt="" />
             <div className="Landing_page_bg_container">
 
             </div>

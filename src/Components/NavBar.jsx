@@ -29,7 +29,7 @@ export default function NavBar(){
     return(
     <div className=" nav_container text-white text-sm flex justify-between items-center gap-10 pt-2 pb-2 pr-9 pl-9 h-fit w-screen z-10">
         {/* <div className="w-fit h-fit flex items-center gap-28"> */}
-            <img src={ameio_logo} alt="" />
+            <img loading="lazy" src={ameio_logo} alt="" />
             <div  className={`${isvisible  ?  "none" :"navIsHidden "} nav_navigation_container flex items-center w-fit  gap-12 text-sm`}>
                 <NavLink to="" 
                 className={({isActive}) =>

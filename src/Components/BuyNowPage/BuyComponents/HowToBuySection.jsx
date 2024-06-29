@@ -27,7 +27,7 @@ export default function HowToBuy() {
           <div className="step1_info_container flex flex-col gap-3">
             <div className="step1_info">
               <div className="step1_heading">
-                Step 1 <img src={wallet_icon} alt="step1logo" />
+                Step 1 <img loading="lazy" src={wallet_icon} alt="step1logo" />
               </div>
 
               <p>
@@ -48,13 +48,13 @@ export default function HowToBuy() {
 
           <div className="step1_other_container">
             <div>
-              <img src={step1_wallet_1} alt="" />
-              <img src={step1_wallet_2} alt="" />
+              <img loading="lazy" src={step1_wallet_1} alt="" />
+              <img loading="lazy" src={step1_wallet_2} alt="" />
             </div>
 
             <div>
-              <img src={step1_wallet_3} alt="" />
-              <img src={step1_wallet_4} alt="" />
+              <img loading="lazy" src={step1_wallet_3} alt="" />
+              <img loading="lazy" src={step1_wallet_4} alt="" />
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function HowToBuy() {
 
         <div className="step2_container">
           <div className="step2_usdt_container">
-            <img src={step2_usdt} alt="" />
+            <img loading="lazy" src={step2_usdt} alt="" />
             <div>Buy Ameio Meme coins with USDT</div>
             <p>
               Please ensure you have at least $20 of USDT in your wallet before
@@ -78,7 +78,7 @@ export default function HowToBuy() {
 
           <div className="step2_info_contaner">
             <div className="step2_heading">
-              Step 2 <img src={buycart_icon} alt="step2logo" />
+              Step 2 <img loading="lazy" src={buycart_icon} alt="step2logo" />
             </div>
             <div>Buy Ameio Meme coins with USDT</div>
             <div>
@@ -88,7 +88,7 @@ export default function HowToBuy() {
             <div>
               For mobile wallet apps you will need to select “Wallet Connect”
             </div>
-            <img src={step2_coin} alt="" />
+            <img loading="lazy" src={step2_coin} alt="" />
           </div>
         </div>
 
@@ -97,7 +97,7 @@ export default function HowToBuy() {
         <div className="step3_container">
           <div className="step3_info_contaner">
             <div className="step3_heading">
-              Step 3 <img src={step3_icon} alt="step2logo" />
+              Step 3 <img loading="lazy" src={step3_icon} alt="step2logo" />
             </div>
             <div>
               Once the presale has concluded, you will be airdropped your
@@ -107,7 +107,7 @@ export default function HowToBuy() {
           </div>
 
           <div className="step3_dron_img">
-            <img src={dron_icon} alt="" />
+            <img loading="lazy" src={dron_icon} alt="" />
           </div>
         </div>
       </div>

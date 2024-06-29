@@ -21,13 +21,13 @@ export default function RoadMap() {
     //                 </ul>
     //             </div>
     //             <div className="roadmap_phase phase1">
-    //                 <img src={roadmap_img1} alt="" className="roadmap_img"/>
+    //                 <img loading="lazy" src={roadmap_img1} alt="" className="roadmap_img"/>
     //             </div>
     //         </div>
 
     //         <div className="roadmap_point">
     //            <div className="roadmap_phase phase2">
-    //            <img src={roadmap_img2} alt="" className="roadmap_img"/>
+    //            <img loading="lazy" src={roadmap_img2} alt="" className="roadmap_img"/>
     //            </div>
     //             <div className="roadmap_info">
     //                 <p className="point_heading text-2xl font-semibold w-fit">Teenage Ameio</p>
@@ -46,14 +46,14 @@ export default function RoadMap() {
     //                 </ul>
     //             </div>
     //             <div className="roadmap_phase phase3">
-    //             <img src={roadmap_img3} alt="" className="roadmap_img"/>
+    //             <img loading="lazy" src={roadmap_img3} alt="" className="roadmap_img"/>
 
     //             </div>
     //         </div>
 
     //         <div className="roadmap_point">
     //            <div className="roadmap_phase  phase4">
-    //            <img src={roadmap_img4} alt="" className="roadmap_img"/>
+    //            <img loading="lazy" src={roadmap_img4} alt="" className="roadmap_img"/>
 
     //            </div>
     //             <div className="roadmap_info">
@@ -75,7 +75,7 @@ export default function RoadMap() {
     //                 </ul>
     //             </div>
     //             <div className="roadmap_phase phase3">
-    //             <img src={roadmap_img5} alt="" className="roadmap_img"/>
+    //             <img loading="lazy" src={roadmap_img5} alt="" className="roadmap_img"/>
 
     //             </div>
     //         </div> */}
@@ -92,7 +92,7 @@ export default function RoadMap() {
         <div className="roadmap_points_container">
           <div className="roadmap_point">
             <div className="roadmap_phase phase1">
-              <img src={roadmap_img1} alt="" className="roadmap_img" />
+              <img loading="lazy" src={roadmap_img1} alt="" className="roadmap_img" />
             </div>
             <div className="roadmap_info">
               <p className=" point_heading  font-semibold w-fit">
@@ -108,7 +108,7 @@ export default function RoadMap() {
 
           <div className="roadmap_point">
             <div className="roadmap_phase phase2">
-              <img src={roadmap_img2} alt="" className="roadmap_img" />
+              <img loading="lazy" src={roadmap_img2} alt="" className="roadmap_img" />
             </div>
             <div className="roadmap_info">
               <p className="point_heading text-2xl font-semibold w-fit">
@@ -122,7 +122,7 @@ export default function RoadMap() {
 
           <div className="roadmap_point">
           <div className="roadmap_phase phase3">
-              <img src={roadmap_img3} alt="" className="roadmap_img" />
+              <img loading="lazy" src={roadmap_img3} alt="" className="roadmap_img" />
             </div>
             <div className="roadmap_info">
               <p className=" point_heading text-2xl font-semibold w-fit">
@@ -139,7 +139,7 @@ export default function RoadMap() {
 
           <div className="roadmap_point">
             <div className="roadmap_phase  phase4">
-              <img src={roadmap_img4} alt="" className="roadmap_img" />
+              <img loading="lazy" src={roadmap_img4} alt="" className="roadmap_img" />
             </div>
             <div className="roadmap_info">
               <p className="point_heading text-2xl font-semibold w-fit">

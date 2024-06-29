@@ -5,7 +5,7 @@ export default function Tokenomics(){
     return(<div className="Tokenomic_section_container" id="Tokenomics_Section">
         <h1>Tokenomics</h1>
         <div className="Tokenomic_body">
-            <div className="graph_container" grid justify-items-center items-center><img src={tokenomic_graph} alt="" /></div>
+            <div className="graph_container" grid justify-items-center items-center><img loading="lazy" src={tokenomic_graph} alt="" /></div>
             
             <div className="tokenomic_info_container">
                 <div><p>Token Name</p> <p>Ameio</p></div>
